@@ -1,0 +1,17 @@
+{
+  "name": "ziggbot",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Tom Heinan <me@tomheinan.com>",
+  "description": "A robot designed to moderate Twitch chat and kill all humans, in that order",
+  "dependencies": {
+    "hubot": "^2.11.4",
+    "hubot-irc": "0.2.x",
+    "hubot-help": "^0.1.1",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
