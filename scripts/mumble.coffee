@@ -46,7 +46,7 @@ module.exports = (robot) ->
           res = ""
           for i in [0...names.length - 1]
             res += "#{names[i]}, "
-          res += " and #{names[names.length - 1]} are talking"
+          res += "and #{names[names.length - 1]} are talking"
 
       msg.send response
 
