@@ -16,6 +16,8 @@
 module.exports = (robot) ->
 
   repExtraLife = ->
-    robot.messageRoom '#ziggittyzig', 'ziggy\'s url here'
+    setInterval () ->
+      robot.messageRoom '#ziggittyzig', 'ziggy\'s url here'
+    , 10000
 
   robot.adapter.on 'connected', repExtraLife
